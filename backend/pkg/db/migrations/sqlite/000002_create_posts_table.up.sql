@@ -1,4 +1,3 @@
--- Creates the 'posts' table with a foreign key to 'users'
 CREATE TABLE IF NOT EXISTS posts (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   user_id INTEGER NOT NULL,
